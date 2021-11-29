@@ -34,5 +34,9 @@
 }
 
 .form-container .cancel {
-  background-color: red;
+    background-color: red;
 }
+
+.login {
+    float:right;
+  }
