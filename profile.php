@@ -23,6 +23,13 @@
     <div>
         <?php include 'navBar.php';?>
     </div>
+    
+    <?php if(!empty($_SESSION["username"])) {
+    echo $_SESSION["username"]."<br>";
+  } else {
+    echo "<p>Log in to see profile.<br></p>";
+  }
+  ?>
 
     
 
