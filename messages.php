@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTyPE html>
 <html>
 <head>
@@ -11,11 +13,15 @@
 </head>
 <body>
     <div>
-    <?php include 'popupMenu.php';?>
+        <?php include 'popupMenu.php';?>
     </div>
 
     <div>
-    <?php include 'navBar.php';?>
+        <?php include 'newUserForm.php';?>
+    </div>
+
+    <div>
+        <?php include 'navBar.php';?>
     </div>
 </body>
 </html>

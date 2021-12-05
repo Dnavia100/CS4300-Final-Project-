@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +17,14 @@
     </div>
 
     <div>
+        <?php include 'newUserForm.php';?>
+    </div>
+
+    <div>
         <?php include 'navBar.php';?>
     </div>
+
+    
+
 </body>
 </html>
