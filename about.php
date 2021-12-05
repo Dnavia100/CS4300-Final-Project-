@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,11 +9,16 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="popupMenu.css">
     <script src="loginbutton.js"></script>
+    
 
 </head>
 <body>
     <div>
         <?php include 'popupMenu.php';?>
+    </div>
+
+    <div>
+        <?php include 'newUserForm.php';?>
     </div>
 
     <div>
