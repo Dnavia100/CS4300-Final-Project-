@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="stylesheet" type="text/css" href="popupMenu.css">
     <script src="loginbutton.js"></script>
+    
 
 </head>
 <body>
@@ -15,7 +18,14 @@
     </div>
 
     <div>
+        <?php include 'newUserForm.php';?>
+    </div>
+
+    <div>
         <?php include 'navBar.php';?>
     </div>
+
+<p>Daniel Navia</p>
+<a href="Daniel.html">Daniel Navia Personal Site</a>
 </body>
 </html>

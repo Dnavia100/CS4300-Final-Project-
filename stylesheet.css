@@ -21,3 +21,29 @@ li:hover {
 #nav li {
     float:left;
 }
+
+.post_links {
+    display: block;
+    padding: 10px 5px;
+    border: 1px solid #000000;
+    margin-bottom: 5px;
+    background-color: #cccccc;
+    color: #000000;
+}
+
+.post_links:hover {
+    background-color: #dddddd;
+}
+
+.post_info {
+    font-size: 0.75em;
+}
+
+.post_button {
+    margin: 10px 0;
+}
+
+.content {
+    width:50%;
+    margin:auto;
+}
